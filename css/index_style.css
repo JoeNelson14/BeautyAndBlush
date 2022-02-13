@@ -5,7 +5,6 @@ body, html {
 header {
   width: 100%;
   margin: 0;
-  text-align: center;
 }
 .pageBG {
   width: 100%;
@@ -17,35 +16,59 @@ header {
 }
 .insta-icon {
   width: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 5px;
 }
+.menu-icon {
+  width: 20px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
 .title {
   font-family: 'Parisienne', cursive;
   font-size: 3rem;
   margin: 20px 0 0 0;
+  text-shadow: 2px 2px 4px black;
 }
 .subtitle {
   font-family: 'Redressed', cursive;
   margin: 0;
-}
-.undertitle {
-  font-family: 'Redressed', cursive;
-  margin: 0;
+  color: grey;
 }
 .main-title {
+  text-align: center;
 }
 nav {
   flex: 1;
-  text-align: center;
   width: 100%;
   font-family: 'Akaya Telivigala', cursive;
+  background-color: #fcefea;
+  height: 30px;
+}
+nav ul {
+  margin: 0;
+  padding-left: 2%;
+  text-align: left;
 }
 nav ul li {
   list-style: none;
-  display: inline-block;
-  margin-right: 30px;
+  display: none;
 }
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 14px;
+nav ul: nav ul li {
+  display: block;
+}
+.pictures {
+  width: 100%;
+  margin-top: 30px;
+}
+.pic {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
 }
