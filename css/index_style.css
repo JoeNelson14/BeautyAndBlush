@@ -1,0 +1,51 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.pageBG {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+}
+.insta-icon {
+  width: 20px;
+}
+.title {
+  font-family: 'Parisienne', cursive;
+  font-size: 3rem;
+  margin: 20px 0 0 0;
+}
+.subtitle {
+  font-family: 'Redressed', cursive;
+  margin: 0;
+}
+.undertitle {
+  font-family: 'Redressed', cursive;
+  margin: 0;
+}
+.main-title {
+}
+nav {
+  flex: 1;
+  text-align: center;
+  width: 100%;
+  font-family: 'Akaya Telivigala', cursive;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
